@@ -14,6 +14,8 @@ function openContractWindow() {
     const rentAmount = document.getElementById('rentAmount').value;
     const location = document.getElementById('location').value;
     const date = new Date(document.getElementById('date').value).toLocaleDateString('pt-BR');
+    const obs = document.getElementById('obs').value;
+
     const contractContent = `
         <h2>Contrato de Locação Residencial</h2>
         <p>Locador: ${landlordName}&nbsp;&nbsp;&nbsp;&nbsp;CPF do Locador: ${landlordCPF}</p>
