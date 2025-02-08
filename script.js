@@ -42,6 +42,7 @@ function openContractWindow() {
         <p>CLÁUSULA DÉCIMA TERCEIRA: Ao LOCADOR é facultado, por si ou seus procuradores, vistoriar o imóvel, sempre que achar conveniente, para certeza do cumprimento das obrigações assumidas neste contrato.</p>
         <p>CLÁUSULA DÉCIMA QUARTA: Cabe ao LOCATÁRIO, o cumprimento, dentro dos prazos legais, de quaisquer multas ou intimações por infrações das leis, portarias ou regulamentos vigentes, originários de quaisquer repartições ou entidades. Obriga-se ainda, a entregar ao LOCADOR, dentro de prazos que permita o seu cumprimento, aviso ou notificação de interesse do imóvel, sob pena de, não o fazendo, assumir integral responsabilidade pela falta.</p>
         <p>CLÁUSULA DÉCIMA QUINTA: A infração de qualquer das cláusulas do presente contrato, sujeita o infrator à multa de duas vezes o valor do aluguel, tomando-se por base, o último aluguel vencido, cobrável ou não por ação executiva, sem prejuízo da rescisão imediata deste contrato, além do pagamento de todas as despesas por procedimentos judiciais e outras sanções que o caso indicar.</p>
+        <p>PARÁGRAFO ÚNICO: ${obs}</p>
         <h3>Assinaturas</h3>
         <p>Local: ${location}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data: ${date}</p>
         <br><br>
@@ -59,7 +60,6 @@ function openContractWindow() {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Contrato de Aluguel</title>
             <style>
                 body { font-family: Arial, sans-serif; padding: 10px; margin: 1.5cm; } /* Margens conforme ABNT */
                 h2 { text-align: center; font-size: 14pt; } /* Tamanho de fonte conforme ABNT */
