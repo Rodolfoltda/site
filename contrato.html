@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imag/image/icons-dinheiro.gif" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+    <title>Contrato de Locação</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="form-image">
+            <img src="imag/undraw_real-time-sync_ro77.svg" alt="">          
+            <a class="valor"  href="index.html">Voltar</a>
+        </div>
+        <div class="form">
+            <form id="rentalForm" onsubmit="openContractWindow(); return false;">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Contrato de Locação Residencial</h1>
+
+                    </div>
+                </div>
+                <div class="input-group2">  
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="landlordName">Nome do Locador:</label>
+                            <input type="text" id="landlordName" name="landlordName" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="landlordCPF">CPF do Locador:</label>
+                            <input type="text" id="landlordCPF" name="landlordCPF" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="landlordMaritalStatus">Estado Civil do Locador:</label>
+                            <input type="text" id="landlordMaritalStatus" name="landlordMaritalStatus" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="landlordProfession">Profissão do Locador:</label>
+                            <input type="text" id="landlordProfession" name="landlordProfession" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="landlordNumber">Celular</label>
+                            <input id="landlordNumber" type="tel" name="landlordNumber" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="tenantName">Nome do Locatário:</label>
+                            <input type="text" id="tenantName" name="tenantName" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="tenantCPF">CPF do Locatário:</label>
+                            <input type="text" id="tenantCPF" name="tenantCPF" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="tenantAddress">Endereço do Locatário:</label>
+                            <input type="text" id="tenantAddress" name="tenantAddress" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="landlordNumber">Celular</label>
+                            <input id="landlordNumber" type="tel" name="landlordNumber" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="propertyAddress">Endereço do Imóvel:</label>
+                            <input type="text" id="propertyAddress" name="propertyAddress" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="leaseStartDate">Data de Início:</label>
+                            <input type="date" id="leaseStartDate" name="leaseStartDate" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="leaseEndDate">Data de Término:</label>
+                            <input type="date" id="leaseEndDate" name="leaseEndDate" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="rentAmount">Valor do Aluguel:</label>
+                            <input type="number" id="rentAmount" name="rentAmount" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="location">Local:</label>
+                            <input type="text" id="location" name="location" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="date">Data:</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="login-button">
+                            <button type="submit">Gerar Contrato</button>
+
+                        </div>
+       
+
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+</body>
+</html>
